@@ -1,0 +1,37 @@
+git config --global user.name (nome_git) - Configurar usuário.
+
+git clone (link_main_repositorio) - Clonar repositório.
+
+git flow init - Iniciar git flow e dar enter até o final.
+
+git pull -all - Trazer todas as novidades da branch.
+
+git flow feature start (nome_da_feature) - Criar feature(Criar tarefas).
+
+git flow bugfix start (nome_da_bugfix) - Criar bugfix (Ajustar bugs).
+
+git flow release start (nome_da_release) - Criar release (Última verificação).
+
+git flow hotfix start (nome_da_hotfix) - Criar hotfix (Consertar bug na hora e subir na main e na develop).
+
+git flow feature finish (nome_da_feature) - Finalizar feature.
+
+git flow bugfix finish (nome_da_bugfix) - Finalizar bugfix (Ajustar bugs).
+
+git flow release finish (nome_da_release) -m "mensagem" - Finalizar release (Última verificação).
+
+git flow hotfix finish (nome_da_hotfix) -m "mensagem" - Finalizar hotfix (Consertar bug na hora e subir na main e na develop).
+
+git push origin develop - Upar todos os arquivos commitados para a branch develop no repositório do github na internet.
+
+git push origin main - Upar todos os arquivos da release para a branch main no repositório do github na internet.
+
+OBS: Criar branch com o nome develop (se não o git não entende a branch).
+
+Feature - Tarefa para implementar coisas novas.
+
+Bugfix - Consertar bugs durante o projeto.
+
+Hotfix - Consertar um bug ou atualização instantanea de forma emergencial e subir direto na main e na develop ao mesmo tempo.
+
+Release - Etapa de validação do projeto para depois subir para main.
